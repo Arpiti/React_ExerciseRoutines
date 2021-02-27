@@ -41,7 +41,7 @@ export default function App() {
   var defaultList = {
     exercise1: "Please Click button"
   };
-  const [input, setinputValue] = useState(defaultList.exercise1);
+  const [input, setinputValue] = useState(crossfitList);
 
   function getList(event) {
     var inButton = event.target.id;
